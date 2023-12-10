@@ -1,5 +1,7 @@
 import sys
-
+"""
+creates the date to be found as well as sets up sys.argv
+"""
 def set_date():
     try: 
         set_date = sys.argv[1]
@@ -8,13 +10,9 @@ def set_date():
     
     return set_date
 
-# def title_artist(list1, list2):
-#     title_artist = []
-#     for i in range(len(list1)):
-#         title_artist.append((list1[i], list2[i]))
-
-#     return title_artist
-
+"""
+retruns a tuple of lists 
+"""
 def artist_song_tuple(list1, list2):
     item1 = []
     item2 = []
