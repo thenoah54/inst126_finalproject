@@ -1,0 +1,4 @@
+Takes a user inputed date and scrapes from the billboard website using that date to gather the top 100 songs from that date.
+Imports bs4, requests, pprint (for visuals), sys, and os.
+
+Releasing under MIT license.
